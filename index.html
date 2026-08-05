@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Simulador ENADE de História com questões, filtros e estatísticas locais.">
+  <title>ENADE História</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <header class="topbar">
+    <a class="brand brand-logo-wrap" href="#inicio" aria-label="Curso de História — início"><img class="brand-logo" src="logo-historia-transparente.png" alt="Curso de História"></a>
+    <nav aria-label="Principal"><button data-view="inicio">Início</button><button data-view="estatisticas">Estatísticas</button></nav>
+    <button id="themeToggle" class="icon-button" aria-label="Alternar tema">◐</button>
+  </header>
+  <main id="conteudo" tabindex="-1"><div id="app" aria-live="polite"><p class="loading">Carregando banco de questões…</p></div></main>
+  <footer><span>Aplicação web estática desenvolvida com a assistência do ChatGPT e do Claude a partir das questões do ENADE disponibilizadas na página do <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enade/provas-e-gabaritos" target="_blank" rel="noopener noreferrer">INEP</a>.</span><span class="third-party-rights">Esta iniciativa não reivindica autoria das questões e imagens, que permanecem sob os direitos e créditos do INEP e de suas fontes originais.</span><span class="privacy-note">A aplicação não exige cadastro nem envia dados do usuário a servidores; preferências e estatísticas permanecem armazenadas localmente no navegador.</span><span class="educational-note">Produto de natureza educacional e sem fins comerciais.</span><small class="license-note">Código-fonte: Copyright © 2026 JP Silveira — Todos os direitos reservados. Documentação e conteúdo autoral: CC BY-NC-SA 4.0.</small><span class="footer-contact">Contato: <a href="mailto:joao.paulo@ueg.br">joao.paulo@ueg.br</a></span><div class="license-row"><span class="copyright-badge" aria-label="Código-fonte com todos os direitos reservados"><strong>© 2026</strong><span>DIREITOS RESERVADOS</span></span><a class="cc-license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br" target="_blank" rel="license noopener noreferrer"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licença Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional"></a></div></footer>
+  <script type="module" src="app.js?v=2.0.2"></script>
+</body>
+</html>
